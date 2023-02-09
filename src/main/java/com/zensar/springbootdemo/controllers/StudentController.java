@@ -46,7 +46,7 @@ public class StudentController {
 			System.out.println("Hiiiiiiiiiiiiiiiiiiiii");
 			throw new StudentNotFoundException("Student Not Found");
 		}else {
-			System.out.println("Helllllllloooooooooooooooooooo");
+			System.out.println("Hellllllllooooooooooooooooooo");
 			new ResponseEntity<StudentDto>(studentService.getStudent(studentId), HttpStatus.OK);
 		}
 		return null;
